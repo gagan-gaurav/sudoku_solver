@@ -1,7 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-
-from live_sudoku_solver.sudoku_solver.sudoku_solver.settings import BASE_DIR
+from sudoku_solver.settings import BASE_DIR
 from .models import *
 from django.core.mail import EmailMessage
 from django.views.decorators import gzip

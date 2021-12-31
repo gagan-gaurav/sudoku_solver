@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gwy@)9g6*7e88463c+n$vfp76))%!%yu#puly%093z3win=$3m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['live-sudoku-solver.herokuapp.com', '127.0.0.1']
 
